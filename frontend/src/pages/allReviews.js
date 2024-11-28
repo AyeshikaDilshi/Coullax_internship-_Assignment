@@ -88,6 +88,11 @@ const ViewReviews = () => {
     );
   };
 
+  const formatDate = (date) => {
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    return new Date(date).toLocaleDateString('en-US', options);
+  };
+
   if (loading) {
     return <div className="loading">Loading...</div>;
   }
@@ -105,6 +110,7 @@ const ViewReviews = () => {
               <div className="review-rating">
                 <strong>Rating:</strong> {renderStars(review.rating)}
               </div>
+              <p className="review-date"><strong>Reviewed on:</strong> {formatDate(review.createdAt)}</p>
               <button
                   className="edit-button"
                   onClick={() => handleEditClick(review)}
