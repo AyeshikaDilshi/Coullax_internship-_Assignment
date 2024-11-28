@@ -62,8 +62,7 @@
     margin-bottom: 15px;
   }
   
-  /* Star Rating Styles */
-  /* AddReview-specific star styles */
+
 .add-review-star {
     font-size: 30px;
     color: #ccc;
@@ -77,7 +76,7 @@
   
   .add-review-empty:hover,
   .add-review-full:hover {
-    color: #ffdb58; /* Lighter yellow for hover effect */
+    color: #ffdb58; 
   }
   
   .star-rating {

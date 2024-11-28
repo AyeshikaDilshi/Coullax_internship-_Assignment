@@ -40,7 +40,7 @@ const AddReview = ({ navigateBack }) => {
         rating: 0,
       });
 
-      // Optionally redirect back to the reviews page
+     
       if (navigateBack) navigateBack();
     } catch (error) {
       console.error('Error adding review:', error);

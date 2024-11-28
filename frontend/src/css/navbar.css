@@ -29,7 +29,7 @@
   .navbar-link {
     text-decoration: none;
     color: white;
-    font-size: 12px; /* Smaller font for navbar links */
+    font-size: 12px; 
     transition: color 0.3s ease;
   }
   
