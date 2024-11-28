@@ -8,6 +8,7 @@ Internship Coding Assignment
 
 
  2.Install dependencies:
+ 
     npm i
     
     npm install ajv@latest ajv-keywords@latest
@@ -16,18 +17,22 @@ Internship Coding Assignment
     
 
  3.Start the frontend:
+ 
      npm start
 
 
 
 ### Backend Setup
  1.Navigate to the backend directory:
+ 
      cd BACKEND
 
  2.Install dependencies:
+ 
      npm i
 
  3.Start the backend:
+ 
      npm start
  
  
